@@ -7,7 +7,6 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-# Ping the provided IP address 5 times
 if ping -c 5 "$1"; then
     echo "Ping successful!"
 else
