@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
-# This script checks if an IP address is reachable on the network by pinging it 5 times.
-
-# Check if an IP address was provided as an argument
+# Check for IP argument and display usage if missing
 if [ -z "$1" ]; then
-    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
-    exit 1
+  echo "Usage: $0 {IP_ADDRESS}"
+  exit 1
 fi
-
-if ping -c 5 "$1"; then
-    echo "Ping successful!"
-else
-    echo "Ping failed. The host might be unreachable."
-    exit 1
-fi
+# Ping the specified IP address 5 times
+ping -c 5 "$1"
 
