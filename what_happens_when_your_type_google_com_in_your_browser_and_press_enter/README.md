@@ -52,6 +52,12 @@ If you’d like to contribute or explore the contents of this repository, follow
 4. View the diagram in the `1-what_happen_when_diagram` file:
     - `1-what_happen_when_diagram` contains the URL to the diagram explaining the request flow.
 
-## License
-This project is open-source and available under the MIT License.
+## Authors
+
+*For questions or feedback, please feel free to reach the authors via the contact information provided:* <br>
+
+`Laman Nazirli` <br>
+* Email - lemannazirli8@gmail.com <br>
+* Github - @llammann <br>
+---
 
